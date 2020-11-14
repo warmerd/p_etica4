@@ -1,0 +1,183 @@
+
+*{
+    padding: 0;
+    margin:  0 ;
+}
+header {
+    background-color:#73C5EA;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom:20px;
+       
+}
+a{
+    padding: 10px 20px;
+    
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: relative;
+    left: 100px;
+    bottom: 80px;
+}
+
+.wally{
+   width: 15%;
+    border-radius: 30px;
+    position: relative;
+left: 300px;
+    bottom: 40px;
+}
+
+.logo{
+    position: relative;
+    right: 50px;
+    bottom: 40px;
+}
+
+
+header a:hover{
+    background: #3FBAFF;
+}
+body{
+    background: white;
+    
+}
+div{
+    width: 70%;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+    
+
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+ 
+.img2{
+  border-radius: 10px ;
+  overflow: hidden;  
+  margin-left: 80%;
+  
+}
+
+.img3{
+    border-radius: 10px ;
+    overflow: hidden;    
+  }
+
+  .img4{
+    border-radius: 10px ;
+    overflow: hidden;  
+    margin-left: 80%;  
+  }
+
+  .img5{
+    border-radius: 10px ;
+    overflow: hidden;  
+    margin-left: 70%;
+    width: 300px;
+  }
+
+  .img6{
+      width: 300px;
+      border-radius: 10px;
+      margin-left: 50%
+  }
+
+  .img7{
+      width: 300px;
+
+  }
+
+  .img8{
+      margin-left: 120px;
+  }
+
+  .img9{
+      width: 350px;
+      border-radius: 10px;
+  }
+
+  .img10{
+      width: 400px;
+      border-radius: 10px;
+      margin-left: 70%;
+  }
+
+.header2{
+    position: fixed;
+    height:130px ;
+}
+
+.header2, .a{
+line-height: 130px;
+font-size: 30px;
+}
+
+.header2, .logo, .wally{
+    line-height: 130px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+footer{
+    background-color:#005088;
+    width: 100%;
+    padding: 5%;
+    overflow: hidden;
+
+    background-size: cover;
+    font-family: 'Quicksand' , sans-serif;
+    
+}
+
+.neon{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0 20px;
+    font-size: 6em;
+    color: #fff;
+    text-shadow: 0 0 20px #21D2EA;
+}
+
+.neon:after{
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: #21D2EA;
+    filter: blur(15px);
+}
+.neon:before{
+   content: ''; 
+   position: absolute;
+   left: 0;
+   width: 100%;
+  height: 100%;
+   background: #21D2EA;
+   z-index: -2;
+   opacity: .5;
+   filter: blur(40px);
+}
+ 
+.dance{
+    margin-left:90% ;
+    
+}
